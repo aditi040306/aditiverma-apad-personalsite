@@ -1,20 +1,20 @@
-/* Global layout */
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff;  /* White background */
+  background-color: #ffffff;  
   color: #2c2c2c;
   margin: 0;
   padding: 0;
 }
 
-/* Header styling */
+
 #header {
-  background-color: #f7f7f7;  /* Light gray */
+  background-color: #f7f7f7;  
   padding: 30px 15px;
   border-bottom: 2px solid #dddddd;
 }
 
-/* Flex layout for image and content */
+
 .profile-container {
   display: flex;
   flex-direction: row;
@@ -26,7 +26,7 @@ body {
   flex-wrap: nowrap;
 }
 
-/* Profile photo section */
+
 .profile-photo {
   flex: 0 0 auto;
 }
@@ -39,7 +39,7 @@ body {
   border: 3px solid #cccccc;
 }
 
-/* Text beside profile photo */
+
 .profile-details {
   flex: 1;
   text-align: left;
@@ -60,7 +60,7 @@ body {
   color: #444444;
 }
 
-/* Sections below the header */
+
 .section {
   background-color: #fafafa;
   border: 1px solid #e0e0e0;
@@ -69,9 +69,9 @@ body {
   border-radius: 8px;
 }
 
-/* Links */
+
 a {
-  color: #0073b1; /* LinkedIn blue */
+  color: #0073b1; 
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Box model example */
+
 img {
   padding: 5px;
 }
